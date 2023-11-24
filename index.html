@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Sunnyside agency landing page</title>
+  <link rel="stylesheet" href="bootstrap-5.2.2-dist/css/bootstrap.css">
+  <link rel="stylesheet" href="style.css">
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(230, 15%, 92%);
+    }
+  </style>
+</head>
+
+<body>
+  <header class="banner">
+    <img src="./images/desktop/image-header.jpg" class="deskback" alt="">
+    <nav class="navbar navbar-expand-md container desknav">
+     
+        <a class="navbar-brand text-white fw-bolder" href="#">sunnyside</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle='collapse' data-bs-target="#navbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a href="#" class="nav-link text-white">About</a>
+            </li>
+            <li class="nav-item ms-3">
+              <a href="#" class="nav-link text-white">Services</a>
+            </li>
+            <li class="nav-item ms-3">
+              <a href="#" class="nav-link text-white">Projects</a>
+            </li>
+            <li class="nav-item ms-4">
+              <a href="#" class="nav-link btn contactBtn ">Contact</a>
+            </li>
+          </ul>
+        </div>
+      
+    </nav>
+    <div class="mask">
+      <h2 class="heading text-white text-center">We are creatives</h2>
+      <img src="images/icon-arrow-down.svg" class="arrowdown" alt="arrow">
+    </div>
+
+    
+ 
+  </header>
+  <!-- mobile header -->
+  <header class="mobileheader">
+    <img src="./images/mobile/image-header.jpg" class="mobback" alt="">
+    <nav class="navbar navbar-expand-lg mobNav">
+      <div class="container">
+        <a class="navbar-brand text-white fw-bolder" href="#">sunnyside</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle='collapse' data-bs-target="#navbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse toolbar"  id="navbar">
+          <!-- <div class="tooltip"></div> -->
+          <ul class="navbar-nav navlist">
+            <li class="nav-item">
+              <a href="#" class="nav-link navcolor">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link navcolor">Services</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link navcolor">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link btn btn-sm yellowBtn">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="maskMob">
+      <h2 class="heading text-white text-center">We are creatives</h2>
+      <img src="images/icon-arrow-down.svg" class="arrow" alt="arrow">
+
+    </div>
+
+   
+  </header>
+  <!-- end of mobile header -->
+
+  <!-- first set -->
+  <section class="container-fluid">
+    <article class="row position-relative overflow-hidden">
+      <div class="col-md-6 g-0 order-xs-last">
+        <div class="desktopoverlay">
+        <img src="images/desktop/image-transform.jpg" alt="" class="egg">
+        </div>
+        
+      </div>
+      <div class="col-md-6 g-0 order-md-first">
+        <div class="middlewords">
+          <div class="midwords">
+            <h1 class="head">Transform your  brand</h1>
+            <p>We are a full-service creative agency specializing in helping brands grow fast.
+              Engage your clients through compelling visuals that do most of the marketing for you.</p>
+            <button class="btn btntransform">learn more</button>
+          </div>
+        </div>
+      </div>
+    </article>
+  </section>
+  <!-- second set -->
+  <section class="container-fluid">
+    <article class="row position-relative overflow-hidden">
+      <div class="col-md-6 g-0">
+        <div class="desktopoverlay">
+        <img src="images/desktop/image-stand-out.jpg" alt="" class="egg">
+        </div>
+        
+        
+      </div>
+      <div class="col-md-6 g-0">
+        <div class="middlewords">
+          <div class="midwordstwo overflow-hidden">
+            <h1 class="head">Stand out to the right audience</h1>
+            <p>Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we`ll build and extend your brand in digital places.</p>
+            <button class="btn btnstandout">learn more</button>
+          </div>
+
+        </div>
+      </div>
+    </article>
+  </section>
+  <!-- third set -->
+  <section class="container-fluid">
+    <article class="row position-relative overflow-hidden">
+      <div class="col-md-6 g-0 overlayImg">
+        <div class="desktopoverlay">
+        <img src="images/desktop/image-graphic-design.jpg" alt="" class="egg">
+        <div class="overlaywords">
+          <h1 class="pb-3">Graphic Designs</h1>
+          <p>Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential
+            clients attention.</p>
+        </div>
+        </div>
+
+        
+        
+        
+        
+      </div>
+      <div class="col-md-6 g-0 overlayImg">
+        <div class="desktopoverlay">
+        <img src="images/desktop/image-photography.jpg" alt="" class="egg">
+        <div class="overlaywords">
+          <h1 class="pb-3">Photography</h1>
+          <p>Increase your credibility by getting the most stunning, high-quality photos that improve your business image</p>
+        </div>
+        </div>
+        
+        <!-- <div class="mobileoverlay">
+        <img src="images/mobile/image-photography.jpg" alt="" class="mobile">
+        <div class="mobilelayword">
+          <h1 class="pb-3">Photography</h1>
+          <p>Increase your credibility by getting the most stunning, high-quality photos that improve your business image</p>
+        </div>
+        </div> -->
+        
+        
+      </div>
+    </article>
+  </section>
+  <!-- Testimonials -->
+  <section class="container-md testimonial my-5 ">
+    <h6 class="text-uppercase text-center mb-5">client testimonials</h6>
+    <div class="row position-relative overflow-hidden">
+      <div class="col-md-4">
+        <div class="profile">
+        <div class="clientImage">
+          <img src="images/image-emily.jpg" class="clientImg" alt="">
+        </div>
+        <p class="clientTest">
+          We put our trust in Sunnside and they delivered, making sure our needs were met and deadlines were always hit.
+        </p>
+        <div class="clientProfile text-center my-4">
+          <h5 class="fw-bolder">Emily R.</h5>
+          <p class="text-muted">Marketing Director</p>
+        </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+      <div class="profile">
+        <div class="clientImage">
+          <img src="images/image-thomas.jpg" class="clientImg" alt="">
+        </div>
+        <p class="clientTest">
+          Sunnyside`s enthusiasm coupled with their keen interest in our brand`s success made it a satisfying and enjoyable experience.
+        </p>
+        <div class="clientProfile text-center my-4">
+          <h5 class="fw-bolder">Thomas S.</h5>
+          <p class="text-muted">Chief Operating Officer</p>
+        </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+      <div class="profile">
+        <div class="clientImage">
+          <img src="images/image-jennie.jpg" class="clientImg" alt="">
+        </div>
+        <p class="clientTest">
+          We put our trust in Sunnside and they delivered, making sure our needs were met and deadlines were always hit.
+        </p>
+        <div class="clientProfile text-center my-4">
+          <h5 class="fw-bolder">Jennie F.</h5>
+          <p class="text-muted">Business Owner</p>
+        </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- photos -->
+  <section class="container-fluid ">
+    <div class="row position-relative overflow-hidden">
+      <div class="col-sm-3 col-6  g-0">
+        <img src="images/desktop/image-gallery-milkbottles.jpg" class="setImages" alt="milk">
+      </div>
+      <div class="col-sm-3 col-6  g-0">
+        <img src="images/desktop/image-gallery-orange.jpg" class="setImages" alt="orange">
+      </div>
+      <div class="col-sm-3 col-6 g-0">
+        <img src="images/desktop/image-gallery-cone.jpg" class="setImages" alt="cone">
+      </div>
+      <div class="col-sm-3 col-6 g-0">
+        <img src="images/desktop/image-gallery-sugarcubes.jpg" class="setImages" alt="sugar">
+      </div>
+    </div>
+  </section>
+  <!-- footer -->
+  <footer class="container-fluid position-relative overflow-hidden">
+    <div class="footerword text-center">
+      <h5 class="fw-bolder pt-5 pb-3">Sunnyside</h5>
+      <div class="sunnylink">
+        <ul class="footerlink">
+          <li class="pe-3"><a href="#">About</a></li>
+          <li class="pe-3"><a href="#">Services</a></li>
+          <li class="pe-3"><a href="#">Projects</a></li>
+        </ul>
+      </div>
+      <div class="footerlogos pt-3">
+        <a href="#" class="footerlogo"><img src="images/icon-facebook.svg" alt="" class="pe-3"></a>
+        <a href="#" class="footerlogo"><img src="images/icon-instagram.svg" alt="" class=" pe-3"></a>
+        <a href="#" class="footerlogo"><img src="images/icon-twitter.svg" alt="" class="pe-3"></a>
+        <a href="#" class="footerlogo"><img src="images/icon-pinterest.svg" alt="" ></a>
+        
+      </div>
+      <div class="attribution my-5">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+        Coded by <a href="#">G-best</a>.
+      </div>
+    </div>
+    
+  </footer>
+  <script src="bootstrap-5.2.2-dist/js/bootstrap.bundle.min.js"></script>
+  
+</body>
+
+</html>

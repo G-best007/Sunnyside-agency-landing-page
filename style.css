@@ -1,0 +1,336 @@
+@import url("https://fonts.google.com/specimen/Barlow");
+@import url("https://fonts.google.com/specimen/Fraunces");
+
+body {
+  line-height: 1.3;
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h4,
+h6 {
+  font-family: "Barlow", sans-serif;
+  font-weight: 600;
+}
+
+p {
+  font-family: "Fraunces", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+  .contactBtn{
+    background-color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 15px;
+    text-transform: uppercase;
+    font-weight: 900;
+  }
+
+  .contactBtn:hover{
+    background-color: white;
+  }
+
+.deskback {
+  width: 100%;
+  max-width: 100%;
+}
+
+.desknav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.banner {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  max-width: 100%;
+}
+
+.mask {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  max-width: 100%;
+  position: absolute;
+  top: 0;
+  height: 100%;
+  
+}
+
+.mask .heading {
+  text-transform: uppercase;
+  letter-spacing: 15px;
+  line-height: 1.2;
+  font-weight: 900;
+}
+
+
+
+.middlewords {
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 500px;
+  max-width: 100%;
+  width: 100%;
+  
+}
+
+
+
+.midwords h1 {
+  font-weight: 900;
+  max-width: 100%;
+  width: 350px;
+  margin-bottom: 10px;
+}
+
+
+
+.midwordstwo h1 {
+  font-weight: 900;
+  max-width: 100%;
+  width: 390px;
+  margin-bottom: 10px;
+}
+
+h1 .head {
+  word-wrap: break-word;
+}
+
+.midwords p,
+.midwordstwo p {
+  font-size: 18px;
+  margin-top: 20px;
+  max-width: 430px;
+}
+
+.btntransform {
+  border-bottom: 4px solid hsl(51, 100%, 49%);
+  font-weight: 500px;
+  margin-top: 20px;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.btntransform:hover {
+  border-bottom: 4px solid hsl(51, 100%, 49%);
+}
+
+.btnstandout {
+  border-bottom: 4px solid hsl(7, 99%, 70%);
+  font-weight: 500px;
+  margin-top: 20px;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.btnstandout:hover {
+  border-bottom: 4px solid hsl(7, 99%, 70%);
+}
+
+.egg {
+  width: 100%;
+  height: 500px;
+}
+
+.overlayImg {
+  position: relative;
+}
+
+.overlaywords {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 50px;
+  transform: translate(0px, 250px);
+  max-width: 100%;
+  height: inherit;
+  width: 100%;
+}
+
+.overlaywords p {
+  max-width: 400px;
+}
+
+.testimonial h6 {
+  letter-spacing: 10px;
+}
+
+.clientImage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.clientImg {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.clientTest {
+  text-align: center;
+  font-size: 18px;
+  word-break: keep-all;
+}
+
+.setImages {
+  max-width: 100%;
+}
+
+footer {
+  background: hsl(168, 34%, 41%);
+  height: 300px;
+}
+
+.footerword {
+  padding-top: 30px;
+  height: 100%;
+}
+
+.footerlink {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+ul li {
+  list-style: none;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+li a {
+  color: black;
+  text-decoration: none;
+}
+
+li a:hover {
+  color: white;
+}
+
+.footerlogo img:hover {
+  filter: brightness(10);
+}
+
+.mobileheader,
+.maskMob {
+  display: none;
+}
+
+@media (max-width: 900px) {
+  .middlewords {
+    padding-left: 20px;
+  }
+
+}
+
+@media (max-width: 768px){
+  .mask{
+    transform: translateY(-55px);
+  }
+
+
+} 
+
+@media (max-width: 767px) {
+  .banner,
+  .mask {
+    display: none;
+  }
+
+  .mobileheader {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .mobback {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .mobNav {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    max-width: 100%;
+    z-index: 1;
+  }
+
+  .maskMob {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+  }
+
+  .arrow{
+    margin-top: 20px;
+  }
+
+  .maskMob h2 {
+    text-transform: uppercase;
+    letter-spacing: 15px;
+    line-height: 1.2;
+    font-weight: 900;
+    max-width: 100%;
+    width: 500px;
+  }
+
+  .navlist {
+    margin-top: 15px;
+    text-align: center;
+    max-width: 100%;
+    width: 200px;
+  }
+
+  .toolbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: inherit;
+    background-color: hsl(0, 0%, 100%);
+    height: 200px;
+    margin-top: 10px;
+    z-index: 1;
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .navcolor {
+    color: hsl(210, 4%, 67%);
+    font-weight: 600;
+  }
+
+  .yellowBtn {
+    border-radius: 20px;
+    font-weight: 900;
+    text-transform: uppercase;
+    background: hsl(51, 100%, 49%);
+  }
+}
