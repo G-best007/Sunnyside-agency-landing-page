@@ -26,7 +26,7 @@ This is a solution to the [Sunnyside agency landing page challenge on Frontend M
 ### Links
 
 
-- Live Site URL: [Add live site URL here](https://g-best007.github.io/Sunnyside-agency-landing-page/)
+- Live Site URL: [click to view project](https://g-best007.github.io/Sunnyside-agency-landing-page/)
 
 ## My process
 
